@@ -1,0 +1,12 @@
+body
+{
+	background-color: #74DBEF;
+}
+
+@media (max-width: 600px)
+{
+	body
+	{
+		background-color: #2A3356;
+	}
+}
