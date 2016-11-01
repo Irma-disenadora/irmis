@@ -1,6 +1,11 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
 body
 {
 	background-color: #74DBEF;
+	margin: 0;
 }
 
 @media (max-width: 600px)
@@ -8,5 +13,47 @@ body
 	body
 	{
 		background-color: #2A3356;
+
+	}
+}
+
+.piso1 {
+	width: 1000px;
+	text-align: center;
+	font-size: 0;
+}
+
+
+.depa
+{
+	background-color: #F38181;
+	width: 100%;
+	height: 250px;
+	display: inline-block;
+	font-size: 1rem;
+	border: 3px solid rgba(0,0,0,0.2);
+}
+
+@media (min-width: 414px)
+{
+	.depa
+	{
+		width: 50%;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.depa
+	{
+		width: 33.333%;
+	}
+}
+
+@media (min-width: 1000px)
+{
+	.depa
+	{
+		width: 25%;
 	}
 }
